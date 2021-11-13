@@ -1,0 +1,302 @@
+body{
+    background-color: #fcfcfc;
+}
+.navbar{
+    padding: 10px 0px;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 33px;
+    text-shadow: 3px 3px 2px  white;
+}
+.navbar-brand img{
+    width: 60px;
+}
+.dropdown{
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.dropdown-menu h6{
+    font-size: large;
+    text-align: center;
+}
+.student:hover{
+    text-decoration: underline;
+}
+.intern:hover{
+    text-decoration: underline;
+}
+.login{
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    border-radius: 10px;
+}
+.login:hover{
+    background-color: blueviolet;
+}
+.info{
+    margin-top:90px;
+}
+ .slogo{
+    height: 100%;
+    text-align: center;
+     width: 98%;
+     margin-top: 10px;
+     padding: 0%;
+ }
+ .info .col-md-7 h1{
+     font-weight: bolder;
+     font-size: 70px;
+ }
+ .info .col-md-7 p{
+     margin-bottom: 50px;
+     margin-top: 20px;
+     text-align: justify;
+     font-weight: lighter;
+     font-size: 30px;
+ }
+ .join .j1 {
+     margin-bottom: 20px;
+     margin-top: 20px;
+     cursor: pointer;
+     border-radius: 10px;
+     padding: 20px;
+     /* margin-right: 10px; */
+     text-align: center;
+     font-weight: bolder;
+     font-size: 18px;
+     background-color: blue;
+ }
+ .join .j1:hover{
+     background-color: blueviolet;
+ }
+ .j1 a{
+    text-decoration: none;
+     color: white;
+ }
+ .join .j2 {
+     margin-bottom: 20px;
+    margin-top: 20px;
+     border-radius: 5px;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    border: 3px solid blue;
+}
+.j2 a{
+    font-size: 18px;
+    text-decoration: none;
+    color: blue;
+}
+.join .j2:hover{
+    background-color: #f2f8fb;
+}
+.course{
+    margin-top: 50px;
+}
+.course1{
+    width: 100%;
+    box-shadow:2px 2px 20px lightgrey;
+    border-radius: 20px;
+}
+.course1 h1{
+    font-weight: 700;
+}
+.course1 p{
+    font-size: 20px;
+}
+.course1 a{
+    animation: an1 2s linear infinite alternate;
+    color: #63d471;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+@keyframes an1{
+    0%{
+        color: #63d471;
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: blue;
+        text-decoration: underline;
+    }
+    75%{
+        color: red;
+    }
+    100%{
+        color: purple;
+    }
+}
+.course1 button{
+    margin-top: 50px;
+}
+.course2{
+    width: 100%;
+    box-shadow:2px 2px 20px lightgrey;
+    border-radius: 20px;
+}
+.course2 h1{
+    font-weight: 700;
+}
+.course2 p{
+    font-size: 20px;
+}
+.course2 a{
+    animation: an1 2s linear infinite alternate;
+    color: #63d471;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.course2 button{
+    margin-top: 80px;
+}
+.company .row img{
+    width: 70%;
+}
+.learning{
+    border-radius: 20px;
+}
+.learning p{
+    font-size: 20px;
+}
+.learning{
+    box-shadow: 2px 2px 20px lightgrey;
+    border-radius: 20px;
+}
+.app{
+    box-shadow: 2px 2px 20px lightgrey;
+    border-radius: 20px;
+}
+.get img{
+    height: 100%;
+    width: 80%;
+}
+.gt h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.gt p{
+    font-size: 25px;
+}
+.Start h1{
+    color: #3c4852;
+    font-weight: 700;
+}
+.Start p{
+   font-size: 25px;
+}
+.Start button{
+    font-size: 20px;
+}
+.exm{
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px lightgrey;
+}
+.exm p{
+    font-size: 25px;
+}
+.exm h1{
+    font-size: 60px;
+}
+.simg img{
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px lightgrey;
+    width: 100%;
+}
+.fa-thumbs-up{
+    color: rgba(255, 208, 0, 0.74) ;
+}
+.fa-info{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.syllabus p{
+    margin-bottom: 0;
+    font-size: 30px;
+    text-align: center;
+}
+.week p{
+    font-weight: lighter;
+    font-size: 40px;
+}
+.week h4{
+    font-weight: 600;
+    font-size: 80px;
+}
+.mod{
+    font-size: 30px;
+    font-weight: 600;
+}
+.modp{
+    font-size: 20px;
+}
+.syllabus h6{
+    text-align: center;
+}
+.fa-clock-o{
+    border-radius: 50%;
+    font-size: 35px;
+    background-image: linear-gradient(135deg, #FD6E6A 10%, #FFC600 100%);
+}
+.fa-book-open{
+    font-size: 20px;
+    background-image: linear-gradient(135deg, #FFFEFF 10%, #5ef5f2 100%);
+    border-radius: 50%;
+}
+.review{
+    background-color: whitesmoke;
+}
+.l{
+    font-size: 20px;
+    color: blue;
+}
+.l:hover{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+}
+/*------------------------------------------------------------- footer___________--------------------------------- */
+.footer{
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px 30px lightgrey;
+}
+.fshiga img{
+    width: 20%;
+}
+.fshiga a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+.fshiga i{
+    border-radius: 50%;
+    text-align: center;
+    width: 15%;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
+.fimg{
+    box-shadow: 2px 2px 20px white;
+        width: 99%;
+    }
+.fimg1{
+    box-shadow: 2px 2px 20px white;
+        width: 100%;
+    }
+.anchor{
+    color: white;
+}  
+.im{
+    border-radius: 50%;
+}
+
+

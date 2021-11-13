@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiga</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+ <!----------------------------------- navbar -------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-image: linear-gradient(135deg, #80d0c7 10%,#13547a 100%);">
+        <a class="navbar-brand" href="#"><img src="img\logo.png"> Shiga</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-3">
+            <li class="nav-item active dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Explore
+              </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <h6>Goals</h6>
+            <a class="dropdown-item" href="#">Take a free course</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Earn a degree</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Earn a cirtificate</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Launch or advance your career</a>
+          </div>
+           </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" >
+            <input class="form-control mr-sm-2" type="search" placeholder="Seach the course" aria-label="Search" style="font-size: 25px;padding-right: 100px; ">
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" style="font-size: 24px;"><i class="fa fa-search"></i></button>
+          </form>
+          <ul class="navbar-nav ml-auto mr-5">
+            <li class="nav-item active">
+              <a class="nav-link student" href="#stud">Students <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link intern" href="#intern">Interns</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#rev">About</a>
+            </li>
+          <li class="nav-item active">
+            <a class="nav-link faq" href="#lerant">FAQ</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://bit.ly/3nd0t3U">Help</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link login" href="signup.html" style="color: white; font-size: 20px;padding:5px 20px 2px 20px;
+            ">Login</a>
+        </li>
+          </ul>
+        </div>
+      </nav>
+<!----------------- company image ---------------------------------------------->
+     <div class="container-fluid">
+      <div class="row ">
+        <div class="col-md-12 ">
+          <img class="img slogo" src="img\slogo.jpg" style="width: 100%;">
+        </div>
+      </div>
+     </div>
+     <!------------------------------- Demo ----------------------------------------->
+     <div class="container info" data-aos="slide-up">
+      <div class="row " >
+        <div class="col-md-7" >
+          <h1>India's Largest Learning platform</h1>
+          <p>Take the next step in your career with a world class learning experience.</p>
+          <div class="row join">
+            <div class="col-md-5 j1">
+              <a href="#">Join for Free</a>
+            </div>
+            
+            <div class="col-md-6 ml-md-5 j2">
+              <a href="#">Try Shiga for buisness</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 ">
+          <img src="img\img.png" width="100%">
+        </div>
+      </div>
+     </div>
+<!---------------------- For students--------------------------------------------------------- -->
+     <div class="container course" data-aos="slide-up">
+      <div class="row justify-content-around" id="intern">
+        <div class="col-md-5 bg-white pt-5 pb-5 pl-5 mb-5 course1">
+          <h3>Prepare for</h3>
+          <h1>Your Dream Job</h1>
+          <p>Popular Courses</p>
+           <a class="mr-4" href="#">Data Science</a>
+           <a class="mr-3" href="#">Web Development</a>
+           <a  class="mr-4" href="#">Software Development</a>
+           <a  class="mr-4" href="#">Android </a>
+           <a class="mr-4 ml-1" href="#">.Net/C# </a>
+           <a href="#">Data Base management</a><br>
+           <button type="button" class="btn btn-primary ml-4 btn-lg">Start Learning</button>
+        </div>
+        <div class="col-md-5 bg-white pt-5 pb-5 pl-5 mb-5 course2">
+          <h3>Prepare for</h3>
+          <h1>Class 6 to 12</h1>
+          <p>Popular boards</p>
+          <a class="mr-1" href="">CBSE</a><br>
+          <a href="">Maharashtra Board</a><br>
+          <button type="button" class="btn btn-primary btn-lg">Start Learning</button>
+        </div>
+      </div>
+     </div>
+<!------------------------------------- Learning -------------------------------------------->
+     <div class="container" data-aos="slide-up">
+        <div class="row justify-content-around" id="stud">
+            <div class="col-md-4 bg-white mb-5 learning">
+              <img class="w-100" src="img\live.jpg" alt="">
+              <h2>Daily live classes</h2>
+              <p>Chat with educators, ask questions, answer live polls, and get your doubts cleared - all while the class is going on</p>
+            </div>
+            <div class="col-md-3 bg-white mb-5 learning">
+                <img class="w-100" src="img\practice.png" alt="">
+                <h2>Practice and revise</h2>
+                <p>Learning isn't just limited to classes with our practice section, mock tests and lecture notes shared as PDFs for your revision</p>
+            </div>
+            <div class="col-md-4 bg-white mb-5 learning">
+              <img class="w-100 rounded" src="img\anywhere.jpg" alt="">
+              <h2>Learn anytime, anywhere</h2>
+              <p>One subscription gets you access to all our live and recorded classes to watch from the comfort of any of your devices</p>
+            </div>
+        </div>
+     </div>
+<!------------------------------ Get the app -------------------------------------------------->
+     <div class="container bg-white app" data-aos="slide-right">
+        <div class="row">
+          <div class="col-md-6 pl-5 pt-5  pb-5  gt">
+            <h1>Get the learning app</h1><br>
+            <p>Download videos and notes, learn anytime, anywhere with the Unacademy app</p>
+            <a href="#"><img class="mt-5" src="img\app_store.png" width="30%"></a>
+            <a href="#"><img class="mt-5" src="img\play_store.png" width="34%"></a>
+          </div>
+            <div class="col-md-6 pl-5 pt-5  get">
+            <img src="img\get the app.jpg" alt="">
+          </div>
+        </div>
+     </div>
+     <!----------------------- Start learning --------------------------------------------------->
+     <div class="container mt-5" data-aos="slide-up">
+        <div class="row ">
+            <div class="col-md-5 mb-5 mt-5 pt-5 Start">
+                <h1 class="mt-5">Start learning with Shiga</h1>
+                <p class="mt-3">Get unlimited access to structured courses & doubt clearing sessions</p>
+                <button type="button" class="btn btn-success mt-5 pl-5 pr-5 pt-3 pb-3">Start Learning</button>
+            </div>
+            <div class="col-md-6 mt-5 ">
+              <div class="row justify-content-around">
+                <div class="col-md-5 simg">
+                <div class="row">
+                  <img class="mb-4" src="img\exm.jpg" alt="">
+                </div>
+                <div class="row">
+                  <img class="mb-4 mt-4" src="img\livecls (1).jpg" alt="">
+                </div>
+                <div class="row">
+                  <img class="mb-4 mt-4" src="img\watched.jpg" alt="">
+                </div>
+                </div>
+                <div class="col-md-5 mt-5 pt-5 simg">
+                  <div class="row">
+                    <img class="mb-4" src="img\educators.jpg" alt="">
+                  </div>
+                  <div class="row">
+                    <img class="mb-4 mt-4" src="img\lesson.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+     </div>
+<!----------------- what will you learn ----------------------------------------->
+      <hr>
+      <div class="container syllabus mt-5" data-aos="zoom-in" id="lerant">
+        <p>Syllabus - What you will learn from this course</p>
+        <h6>Content Rating <i class="fa fa-thumbs-up"></i> 97%(114,319 ratings) <i class="fa fa-info pt-1 pb-1 pl-2 pr-2"></i></h6>
+<!---------------------- row1 ------------------------------------>
+        <div class="row justify-content-around mt-5 mb-5" data-aos="slide-right">
+          <div class="col-md-2 mt-5 pt-5 week">
+            <p class="text-center">WEEK</p>
+            <h4 class="text-center">1</h4>
+          </div>
+          <div class="col-md-8 pb-5 mt-5" style="border-bottom: 1px solid lightgrey;">
+            <div class="row mt-2 text-center">
+              <div class="col-md-2">
+                <i class="fa fa-clock-o p-2"></i>
+              </div>
+              <div class="col-md-4">
+                <h5>9 hours to complete</h5>
+              </div>
+            </div>
+              <h6 class="mod mt-5 mb-4" style="text-align: left;">Module 1</h6>
+              <p style="font-size: 20px; text-align: justify;">Welcome to the course! In this opening module, you will learn the basics of financial markets, insurance, and CAPM (Capital Asset Pricing Model). This module serves as the foundation of this course.</p>
+              <div class="row mt-2 text-center">
+                <div class="col-md-1" >
+                  <i class="fas fa-book-open p-3 mt-5"></i>
+                </div>
+                <div class="col-md-9 mt-5">
+                  <p class="mt-2" style="font-size: 20px;">23 videos (Total 534 min), 1 reading, 5 quizzes. <span><a href="#">  SEE  ALL</a></span></p>
+                </div>
+              </div>
+          </div>
+        </div>
+   <!--------------------------- row2 --------------------------------------------->
+   <div class="row justify-content-around mt-5 mb-5" data-aos="slide-right">
+    <div class="col-md-2 mt-5 pt-5 week">
+      <p class="text-center">WEEK</p>
+      <h4 class="text-center mb-5">2</h4>
+    </div>
+    <div class="col-md-8 pb-5" style="border-bottom: 1px solid lightgrey;">
+      <div class="row mt-2 text-center">
+        <div class="col-md-2">
+          <i class="fa fa-clock-o p-2"></i>
+        </div>
+        <div class="col-md-4">
+          <h5 class="mt-2">6 hours to complete</h5>
+        </div>
+      </div>
+        <h6 class="mod mt-5 mb-4" style="text-align: left;">Module 2</h6>
+        <p style="font-size: 20px; text-align: justify;">In this next module, dive into some details of behavioral finance, forecasting, pricing, debt, and inflation.</p>
+        <div class="row row mt-2 text-center">
+          <div class="col-md-1">
+            <i class="fas fa-book-open p-3 mt-5"></i>
+          </div>
+          <div class="col-md-9 mt-5">
+            <p class="mt-2" style="font-size: 20px;">17 videos (Total 353 min). <span><a href="#">  SEE  ALL</a></span></p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!---------------------------------------------- row3------------------------------------------- -->
+  <div class="row justify-content-around mt-5 mb-5" data-aos="slide-right">
+    <div class="col-md-2 mt-5 week">
+      <p class="mb-3">WEEK</p>
+      <h4 class="text-center mb-5">3</h4>
+    </div>
+    <div class="col-md-8 pb-5" style="border-bottom: 1px solid lightgrey;">
+      <div class="row mt-2 text-center">
+        <div class="col-md-2">
+          <i class="fa fa-clock-o p-2"></i>
+        </div>
+        <div class="col-md-4">
+          <h5 class="mt-2">4 hours to complete</h5>
+        </div>
+      </div>
+        <h6 class="mod mt-5 mb-4" style="text-align: left;">Module 3</h6>
+        <p style="font-size: 20px; text-align: justify;">Stocks, bonds, dividends, shares, market caps; what are these? Who needs them? Why? Module 3 explores these concepts, along with corporation basics and some basic financial markets history..</p>
+        <div class="row row mt-2 text-center">
+          <div class="col-md-1">
+            <i class="fas fa-book-open p-3 mt-5"></i>
+          </div>
+          <div class="col-md-9 mt-5">
+            <p class="mt-2" style="font-size: 20px;">18 videos (Total 232 min). <span><a href="#">  SEE  ALL</a></span></p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!--------------------------------------- row4 ---------------------------------->
+  <div class="row justify-content-around mt-5 mb-5" data-aos="slide-right">
+    <div class="col-md-2 mt-5 week">
+      <p class="mb-3">WEEK</p>
+      <h4 class="text-center mb-5">4</h4>
+    </div>
+    <div class="col-md-8 pb-5" style="border-bottom: 1px solid lightgrey;">
+      <div class="row text-center">
+        <div class="col-md-2 ">
+          <i class="fa fa-clock-o p-2"></i>
+        </div>
+        <div class="col-md-4">
+          <h5 class="mt-2">7 hours to complete</h5>
+        </div>
+      </div>
+        <h6 class="mod mt-5 mb-4" style="text-align: left;">Module 4</h6>
+        <p style="font-size: 20px; text-align: justify;">Stocks, bonds, dividends, shares, market caps; what are these? Who needs them? Why? Module 3 explores these concepts, along with corporation basics and some basic financial markets history..</p>
+        <div class="row">
+          <div class="col-md-1 mt-2 text-center">
+            <i class="fas fa-book-open p-3 mt-5"></i>
+          </div>
+          <div class="col-md-9 mt-5">
+            <p class="mt-2" style="font-size: 20px;">18 videos (Total 232 min). <span><a href="#">  SEE  ALL</a></span></p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- ---------------------------------------------show more------------------------------- -->
+  <div class="row text-center" data-aos="flip-right">
+    <div class="col-md-12">
+      <button type="button" class="btn btn-info pt-3 pb-3 pl-5 pr-5 mb-5 text-center" style="font-size: 25px;">Show More</button>
+    </div>
+  </div>
+    </div>
+<!--------------------------------------------------- Reviews ----------------------------------------------------------->
+       <div class="container-fluid mt-5 mb-5 pb-5 review" id="rev">
+         <div class="row">
+          <div class="col-md-12">
+            <h2 class="mb-5" style="font-size: 40px;font-weight: bolder;">Reviews</h2>
+          </div>
+         </div>
+        <div class="row"> 
+          <div  class="col-md-4 mb-5">
+            <div class="row">
+              <div class="col-md-3">
+                <h1>4.7</h1>
+              </div>
+              <div class="col-md-6 mb-5 text-warning">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <br>
+                <a href="#" class="text-dark">50000+ reviews</a>
+              </div>
+            </div>
+            <!------------------------------ 5star------------------------------------- -->
+            <div class="row" >
+              <div class="col-md-2">
+                <p>5 stars</p>
+              </div>
+              <div class="col-md-6">
+                <div class="progress">
+                  <div data-aos="slide-right" class="progress-bar bg-warning" role="progressbar" style="width: 90%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"> 85.78% </div>
+              </div>
+              </div>
+            </div>
+            <!-------------------- 4star ------------------- -->
+            <div class="row">
+              <div class="col-md-2">
+                <p>4 stars</p>
+              </div>
+              <div class="col-md-6">
+                <div class="progress">
+                  <div data-aos="slide-right" class="progress-bar bg-warning" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 11.88% </div>
+              </div>
+              </div>
+            </div>
+            <!------------------- 3star------------------ -->
+            <div class="row">
+              <div class="col-md-2">
+                <p>3 stars</p>
+              </div>
+              <div class="col-md-6">
+                <div class="progress">
+                  <div data-aos="slide-right" class="progress-bar bg-warning" role="progressbar" style="width: 30%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"> 1.49% </div>
+              </div>
+              </div>
+            </div>
+            <!-- ----------------------------2star------------------------------------- -->
+            <div class="row">
+              <div class="col-md-2">
+                <p>2 stars</p>
+              </div>
+              <div class="col-md-6">
+                <div class="progress">
+                  <div data-aos="slide-right" class="progress-bar bg-warning" role="progressbar" style="width: 20%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"> 0.31% </div>
+              </div>
+              </div>
+            </div>
+            <!------------------------------- 1star----------------------------- -->
+            <div class="row">
+              <div class="col-md-2">
+                <p>1 stars</p>
+              </div>
+              <div class="col-md-6">
+                <div class="progress">
+                  <div data-aos="slide-right" class="progress-bar bg-warning" role="progressbar" style="width: 15%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"> 0.74% </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+              <h6 class="mb-4">TOP REVIEWS FROM FINANCIAL MARKETS</h6>
+              <div class="row">
+                <div class="col-md-12  mt-4">
+                  <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+             <p>by JCAug 20, 2020</p>
+             <p>Curso perfeito em todos os aspectos, me introduziu ao mercado financeiro e me fez querer escolher essa área para atuar. Robert Shiller merece o posto de maiores economistas que temos, pessoa incrível.</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12  mt-4">
+                  <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+             <p>by SKMay 10, 2020</p>
+             <p>This course is so useful to know about finance in depth it gives more examples about the finance . It help to make more decision in finance market. It also motivate students to attract towards finance</p>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-12  mt-4">
+                  <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+             <p>by IHMar 10, 2021</p>
+             <p>This course is easy to follow and interesting. Professor Shiller is very motivating. It not teaching about finance but more importantly how finance can build a better life for all. Really recommended.</p>
+                </div>
+              </div>
+
+              <div class="row mb-5">
+                <div class="col-md-12  mt-4">
+                  <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+             <p>by BKOct 26, 2021</p>
+             <p>This course is so useful to know about finance in depth it gives more examples about the finance . It help to make more decision in finance market. It also motivate students to attract towards finance</p>
+                </div>
+              </div>
+
+              <a class=" pt-3 pb-3 pl-5 pr-5 l" href="#" style="border: 2px solid blue;">View all reviews</a>
+
+          </div>
+        </div>
+      </div>
+
+ <!-------------------------------------- footer--------------------------------------- -->
+ <div class="container-fluid mt-5 pb-3 pt-3 footer">
+    <div class="container">
+      <div class="row justify-content-around">
+      <div class="col-md-3 fshiga mt-4">
+        <a href="#"><span><img src="img\logo.png" alt=""></span> Shiga</a><br>
+        <a href="https://bit.ly/3nd0t3U"><i class="fa fa-whatsapp"></i></a>
+        <a href="https://www.facebook.com/negi.jii.7165"><i class="fa fa-facebook"></i></a>
+        <a href="https://instagram.com/official_negijii?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
+        <a href="https://github.com/Deepak241224"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/deepak-435a5b21b"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.youtube.com/channel/UCJZ-ZN1DsyyWIIHJMOm0DRg"><i class="fa fa-youtube"></i></a>
+        <p class="mt-3">&copy All rights reserved.</p>
+      </div>
+      <div class="col-md-5 mt-4">
+          <div class="row justify-content-around">
+            <div class="col-md-5  mt-4">
+              <h6>COMPANY</h6>
+              <a href="#" class="anchor"> About us</a><br>
+               <a href="#" class="anchor">Careers</a><br>
+              <a href="#" class="anchor">Blogs</a><br>
+               <a href="#" class="anchor">Privacy Policy</a><br>
+              <a href="#" class="anchor">Terms & Conditions</a>
+            </div>
+            <div class="col-md-5 mt-4">
+              <h6>POPULAR GOALS</h6>
+              <a href="#" class="anchor">Data Science</a><br>
+              <a href="#" class="anchor">Web Development</a><br>
+              <a href="#" class="anchor">Software Developer</a><br>
+              <a href="#" class="anchor">DBMS</a><br>
+              <a href="#" class="anchor">Android</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-2 mt-5">
+        <a href="#"><img class="fimg" src="img\play_store.png" alt=""></a>
+        <a href="#"><img class="fimg1 mt-4" src="img\app_store.png" alt=""></a>
+      </div>
+    </div>
+    </div>
+ </div>
+</body>
+<script src="js\jquery.js"></script>
+<script src="js\bootstrap.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset:200,
+      duration:1100,
+    });
+  </script>
+  
+</html>
